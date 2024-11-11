@@ -1,0 +1,24 @@
+{
+  "name": "pruebas",
+  "version": "1.0.0",
+  "description": "Las pruebas de node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api" : "node --watch \".\\2. Pokemon HTTP\\index_api.js\""
+  },
+  "keywords": [
+    "pruebas"
+  ],
+  "author": "Alvaro",
+  "license": "ISC",
+  "dependencies": {
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends" : "standard"
+  }
+}

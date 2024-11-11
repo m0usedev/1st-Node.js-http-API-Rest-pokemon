@@ -1,0 +1,14 @@
+{
+  "pokemon": "C:\\Users\\Alvaro-pc\\Desktop\\node\\2. Pokemon HTTP\\src\\json\\pokemon.json",
+  "pruebas": "C:\\Users\\Alvaro-pc\\Desktop\\node\\2. Pokemon HTTP\\src\\json\\pruebas.json",
+  "delete": "C:\\Users\\Alvaro-pc\\Desktop\\node\\2. Pokemon HTTP\\src\\methods\\delete.js",
+  "get": "C:\\Users\\Alvaro-pc\\Desktop\\node\\2. Pokemon HTTP\\src\\methods\\get.js",
+  "post": "C:\\Users\\Alvaro-pc\\Desktop\\node\\2. Pokemon HTTP\\src\\methods\\post.js",
+  "put": "C:\\Users\\Alvaro-pc\\Desktop\\node\\2. Pokemon HTTP\\src\\methods\\put.js",
+  "pokemon_actions": "C:\\Users\\Alvaro-pc\\Desktop\\node\\2. Pokemon HTTP\\src\\methods\\utilites\\pokemon_actions.js",
+  "pokemon_json_actions": "C:\\Users\\Alvaro-pc\\Desktop\\node\\2. Pokemon HTTP\\src\\methods\\utilites\\pokemon_json_actions.js",
+  "pokemon_validations": "C:\\Users\\Alvaro-pc\\Desktop\\node\\2. Pokemon HTTP\\src\\methods\\utilites\\pokemon_validations.js",
+  "response": "C:\\Users\\Alvaro-pc\\Desktop\\node\\2. Pokemon HTTP\\src\\methods\\utilites\\response.js",
+  "variety": "C:\\Users\\Alvaro-pc\\Desktop\\node\\2. Pokemon HTTP\\src\\methods\\utilites\\variety.js",
+  "globales": "C:\\Users\\Alvaro-pc\\Desktop\\node\\2. Pokemon HTTP\\src\\utilites\\globales.js"
+}
