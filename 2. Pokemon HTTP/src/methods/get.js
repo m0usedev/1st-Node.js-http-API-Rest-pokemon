@@ -1,5 +1,8 @@
-const { getPkemonJson } = require('./utilites/pokemon_json_actions.js')
-const { response200, urlNotExist } = require('./utilites/response.js')
+const {
+  getPkemonJson,
+  response200,
+  urlNotExist
+} = require('../../dependences.js')
 
 function gets (url, response) {
   switch (url) {

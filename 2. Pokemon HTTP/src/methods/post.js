@@ -1,7 +1,14 @@
-const { pokemonExist, pokemonValidatorStructure } = require('./utilites/pokemon_validations.js')
-const { response200, response400, response500, urlNotExist } = require('./utilites/response.js')
-const { getPkemonJson, savePokemonJson } = require('./utilites/pokemon_json_actions.js')
-const { addPokemon } = require('./utilites/pokemon_actions.js')
+const {
+  addPokemon,
+  pokemonExist,
+  pokemonValidatorStructure,
+  response200,
+  response400,
+  response500,
+  urlNotExist,
+  getPkemonJson,
+  savePokemonJson
+} = require('../../dependences.js')
 
 function posts (url, request, response) {
   switch (url) {

@@ -1,7 +1,14 @@
-const { deletePokemon } = require('./utilites/pokemon_actions.js')
-const { getPkemonJson, savePokemonJson } = require('./utilites/pokemon_json_actions.js')
-const { response200, response400, response500, urlNotExist } = require('./utilites/response.js')
-const { spliteUrl } = require('./utilites/variety.js')
+const {
+  deletePokemon,
+  getPkemonJson,
+  savePokemonJson,
+  response200,
+  response400,
+  response500,
+  urlNotExist,
+  spliteUrl
+} = require('../../dependences.js')
+
 function deletes (url, request, response) {
   const urlPaths = spliteUrl(url)
   switch (`/${urlPaths[0]}`) {

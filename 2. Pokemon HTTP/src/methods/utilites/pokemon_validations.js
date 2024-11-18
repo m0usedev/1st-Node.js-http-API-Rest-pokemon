@@ -1,4 +1,4 @@
-const { PROPERTIES_POKEMON } = require('../../utilites/globales')
+const { PROPERTIES_POKEMON } = require('../../../dependences.js')
 
 // Saber si existe el pokemon por su numero o id
 async function pokemonExist (listPok, idPok) {

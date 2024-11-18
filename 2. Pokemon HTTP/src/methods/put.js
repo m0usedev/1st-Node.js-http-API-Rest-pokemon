@@ -1,9 +1,16 @@
-const { PROPERTIES_POKEMON } = require('../utilites/globales')
-const { getPkemonJson, savePokemonJson } = require('./utilites/pokemon_json_actions.js')
-const { wrongProperties, wrongValueType, pokemonExist } = require('./utilites/pokemon_validations')
-const { response200, response400, response500, urlNotExist } = require('./utilites/response.js')
-const { modifyPokemon } = require('./utilites/pokemon_actions.js')
-const { spliteUrl } = require('./utilites/variety.js')
+const {
+  PROPERTIES_POKEMON,
+  getPkemonJson,
+  savePokemonJson,
+  wrongProperties,
+  wrongValueType,
+  pokemonExist,
+  response200,
+  response400,
+  response500,
+  urlNotExist,
+  modifyPokemon, spliteUrl
+} = require('../../dependences.js')
 
 function puts (url, request, response) {
   const urlPaths = spliteUrl(url)
