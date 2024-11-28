@@ -16,7 +16,9 @@ En este proyecto no encontré grandes dificultades durante el desarrollo, por va
 
 Este proyecto me ayudó a definir la tecnología con la que quiero especializarme en el Back-End, y me siento entusiasmado por continuar trabajando con Node.js en futuros desarrollos.
 
-Por mencionar algun reto interesante del desarrollo puedo mencionar las funciones de validación de las propiedades y valores enviadas por el body en las peticiones. Validadores que se encuentra en el archivo `pokemon_validation.js`.
+La primera carpeta `1. Primer contacto http` es solo eso, un primer contacto muy simple con NodeJs.
+
+La segunda carpeta `2. Pokemon HTTP` es la api como tal de Pokemon. Por mencionar algun reto interesante del desarrollo puedo mencionar las funciones de validación de las propiedades y valores enviadas por el body en las peticiones. Validadores que se encuentra en el archivo `pokemon_validation.js`.
 
 ## 🛠️ Pasos de instalación:
 
@@ -35,7 +37,7 @@ npm install
 5. Después ejecutar el comando: 
 
 ```
-npm run dev
+node '.\2. Pokemon HTTP\index_api.js'
 ```
 
 6. Abre el enlace que se te genera y prueba el proyecto ;)
