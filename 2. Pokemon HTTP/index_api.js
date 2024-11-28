@@ -1,6 +1,9 @@
 const http = require('node:http')
 
-const { gets, posts, deletes, puts } = require('./dependences.js')
+const { gets } = require('./src/methods/get.js')
+const { posts } = require('./src/methods/post.js')
+const { deletes } = require('./src/methods/delete.js')
+const { puts } = require('./src/methods/put.js')
 
 const server = http.createServer((request, response) => {
   const { method, url } = request

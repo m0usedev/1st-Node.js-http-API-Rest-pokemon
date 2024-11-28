@@ -1,6 +1,6 @@
 const fs = require('node:fs/promises')
 
-const { POKEMON_PATH } = require('../../../dependences.js')
+const { POKEMON_PATH } = require('../../utilites/globales.js')
 
 // para recuperar el json de pokemons
 async function getPkemonJson () {

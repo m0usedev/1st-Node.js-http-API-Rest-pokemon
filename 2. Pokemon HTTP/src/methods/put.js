@@ -1,5 +1,4 @@
 const {
-  PROPERTIES_POKEMON,
   getPkemonJson,
   savePokemonJson,
   wrongProperties,
@@ -9,8 +8,11 @@ const {
   response400,
   response500,
   urlNotExist,
-  modifyPokemon, spliteUrl
+  modifyPokemon,
+  spliteUrl
 } = require('../../dependences.js')
+
+const { PROPERTIES_POKEMON } = require('../utilites/globales.js')
 
 function puts (url, request, response) {
   const urlPaths = spliteUrl(url)
